@@ -18,9 +18,14 @@
 		1B6AC55317C1D4FB0091E345 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6AC55217C1D4FB0091E345 /* Default-568h@2x.png */; };
 		1B6AC55617C1D4FB0091E345 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6AC55417C1D4FB0091E345 /* MainStoryboard.storyboard */; };
 		1B6AC55917C1D4FB0091E345 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6AC55817C1D4FB0091E345 /* CalculatorViewController.m */; };
+		1B6AC56117C1E9E30091E345 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6AC56017C1E9E30091E345 /* CalculatorBrain.m */; };
+		1BBA18BB17C1FDD8009386C8 /* darkwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BBA18BA17C1FDD8009386C8 /* darkwhite.png */; };
+		1BF3E26017C201F200034D3B /* Milky Way.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3E25F17C201F200034D3B /* Milky Way.jpg */; };
+		1BF3E26217C2027400034D3B /* Milky Way.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3E26117C2027400034D3B /* Milky Way.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B18932D17C2BB380032F729 /* Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Calculator.entitlements; sourceTree = "<group>"; };
 		1B6AC53917C1D4FB0091E345 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6AC53C17C1D4FB0091E345 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1B6AC53E17C1D4FB0091E345 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +42,11 @@
 		1B6AC55517C1D4FB0091E345 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		1B6AC55717C1D4FB0091E345 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		1B6AC55817C1D4FB0091E345 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		1B6AC55F17C1E9E30091E345 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		1B6AC56017C1E9E30091E345 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		1BBA18BA17C1FDD8009386C8 /* darkwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkwhite.png; sourceTree = "<group>"; };
+		1BF3E25F17C201F200034D3B /* Milky Way.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Milky Way.jpg"; sourceTree = "<group>"; };
+		1BF3E26117C2027400034D3B /* Milky Way.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Milky Way.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +93,15 @@
 		1B6AC54217C1D4FB0091E345 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				1B18932D17C2BB380032F729 /* Calculator.entitlements */,
+				1B6AC55F17C1E9E30091E345 /* CalculatorBrain.h */,
+				1B6AC56017C1E9E30091E345 /* CalculatorBrain.m */,
 				1B6AC54B17C1D4FB0091E345 /* CalculatorAppDelegate.h */,
 				1B6AC54C17C1D4FB0091E345 /* CalculatorAppDelegate.m */,
 				1B6AC55417C1D4FB0091E345 /* MainStoryboard.storyboard */,
+				1BF3E26117C2027400034D3B /* Milky Way.png */,
+				1BF3E25F17C201F200034D3B /* Milky Way.jpg */,
+				1BBA18BA17C1FDD8009386C8 /* darkwhite.png */,
 				1B6AC55717C1D4FB0091E345 /* CalculatorViewController.h */,
 				1B6AC55817C1D4FB0091E345 /* CalculatorViewController.m */,
 				1B6AC54317C1D4FB0091E345 /* Supporting Files */,
@@ -164,6 +180,9 @@
 				1B6AC55117C1D4FB0091E345 /* Default@2x.png in Resources */,
 				1B6AC55317C1D4FB0091E345 /* Default-568h@2x.png in Resources */,
 				1B6AC55617C1D4FB0091E345 /* MainStoryboard.storyboard in Resources */,
+				1BBA18BB17C1FDD8009386C8 /* darkwhite.png in Resources */,
+				1BF3E26017C201F200034D3B /* Milky Way.jpg in Resources */,
+				1BF3E26217C2027400034D3B /* Milky Way.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +196,7 @@
 				1B6AC54917C1D4FB0091E345 /* main.m in Sources */,
 				1B6AC54D17C1D4FB0091E345 /* CalculatorAppDelegate.m in Sources */,
 				1B6AC55917C1D4FB0091E345 /* CalculatorViewController.m in Sources */,
+				1B6AC56117C1E9E30091E345 /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +319,7 @@
 				1B6AC55E17C1D4FB0091E345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
